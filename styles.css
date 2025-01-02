@@ -55,7 +55,7 @@ body.show-chatbot #chatbot-toggler span:last-child {
   bottom: 90px;
   width: 420px;
   overflow: hidden;
-  background: #ececec;
+  background: red;
   border-radius: 15px;
   opacity: 0;
   pointer-events: none;
@@ -97,7 +97,7 @@ body.show-chatbot .chatbot-popup {
 }
 
 .header-info .logo-text {
-  color: #fff;
+  color: black;
   font-weight: 600;
   font-size: 1.31rem;
   letter-spacing: 0.02rem;
@@ -105,7 +105,7 @@ body.show-chatbot .chatbot-popup {
 
 .chat-header #close-chatbot {
   border: none;
-  color: #fff;
+  color: red;
   height: 40px;
   width: 40px;
   font-size: 1.9rem;
@@ -118,7 +118,7 @@ body.show-chatbot .chatbot-popup {
 }
 
 .chat-header #close-chatbot:hover {
-  background: #005f63;
+  background: black;
 }
 
 .chat-body {
@@ -148,7 +148,7 @@ body.show-chatbot .chatbot-popup {
   width: 35px;
   height: 35px;
   padding: 6px;
-  fill: #fff;
+  fill: red;
   flex-shrink: 0;
   margin-bottom: 2px;
   align-self: flex-end;
@@ -167,7 +167,7 @@ body.show-chatbot .chatbot-popup {
 }
 
 .chat-body .bot-message .message-text {
-  background: #ececec;
+  background: black;
   border-radius: 13px 13px 13px 3px;
 }
 
@@ -724,13 +724,13 @@ transition: 0.5s;
   font-weight: 600; /* Optional: makes the text bold */
 }
 .testimonial{
-  background: url('Cafe\ Latin\ logo\ with\ a\ color\ of\ your\ choice.png');
+  background: url('Media/Cafe\ Latin\ logo\ with\ a\ color\ of\ your\ choice.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .offer{
-  background: url('image.png');
+  background: url(Media/image.png);
 }
 
 .offer .container div{
@@ -824,6 +824,7 @@ transition: 0.5s;
 
 #blog{
   background-color: wheat;
+  color: black;
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
