@@ -724,13 +724,13 @@ transition: 0.5s;
   font-weight: 600; /* Optional: makes the text bold */
 }
 .testimonial{
-  background: url('Media/Cafe\ Latin\ logo\ with\ a\ color\ of\ your\ choice.png');
+  background: url('Cafe\ Latin\ logo\ with\ a\ color\ of\ your\ choice.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .offer{
-  background: url(Media/image.png);
+  background: url('image.png');
 }
 
 .offer .container div{
